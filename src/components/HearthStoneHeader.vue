@@ -47,6 +47,7 @@ h6 {
   z-index: 1;
   width: 100%;
   position: sticky;
+  /* position: fixed; */
   top: 0px;
   color: #17caf0;
   font-size: 40px;
@@ -62,7 +63,11 @@ ul {
 
 @media only screen and (max-width: 740px) {
   Nav {
-    width: 100%
+    width: 100%;
+  }
+
+  .title {
+    font-size: 30px;
   }
 
   h6 {
@@ -75,6 +80,7 @@ ul {
   .title {
     font-size: 18px;
   }
+
   #title-text{
     margin-left: 0;
   }

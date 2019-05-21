@@ -2,8 +2,6 @@
   <div id="main">
     <HearthStoneHeader msg="Hearthstone"/>
     <router-view></router-view>
-    <!-- <FrontPage /> -->
-    <!-- <Responsibilities/> -->
   </div>
 </template>
 <script>
@@ -24,6 +22,9 @@
 </script>
 <style>
   @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+  body{
+    margin: 0;
+  }
 
   #main {
     font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
@@ -44,10 +45,14 @@
     font-size: 20px;
   }
 
-  @media only screen and (max-width: 860px) {
+  @media only screen and (max-width: 500px) {
     .page-content{
       margin: 2% 0;
-      
+    }
+
+    body, html{
+      width: 100%;
+      overflow-x: hidden;
     }
   }
 </style>
