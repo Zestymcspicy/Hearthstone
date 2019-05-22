@@ -5,18 +5,11 @@
   </div>
 </template>
 <script>
-  import Responsibilities from './components/Responsibilities';
   import HearthStoneHeader from './components/HearthStoneHeader';
-  import FrontPage from './components/FrontPage';
   export default {
     components: {
       HearthStoneHeader,
-      FrontPage,
-      Responsibilities
     },
-    // data() {
-    //   return page.FrontPage = true
-    // }
   }
 
 </script>
@@ -36,6 +29,7 @@
   }
 
   .page-content {
+    border-radius: 5%;
     padding: 2%;
     display: flex;
     flex-wrap: wrap;

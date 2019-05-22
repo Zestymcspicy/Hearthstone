@@ -136,11 +136,11 @@ export default {
 
     #hamburger {
       z-index: 1;
-	    border-radius: 10%;
-	    position: absolute;
-	    right: 3%;
-	    top: 40px;
-	    transform: translateY(-50%);
+      border-radius: 10%;
+      position: absolute;
+      right: 3%;
+      top: 40px;
+      transform: translateY(-50%);
       /* width: 40px; */
     }
 

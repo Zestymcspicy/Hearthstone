@@ -43,11 +43,11 @@
   </div>
 </template>
 
-<script>
-export default {
-
-}
-</script>
+<!-- // <script>
+// export default {
+//
+// } -->
+<!-- </script> -->
 <style scoped>
   .front-page-text{
     width: 65%;

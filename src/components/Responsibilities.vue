@@ -1,7 +1,7 @@
 <template>
   <div class="page-content" id="responsibilities-page">
     <div>
-			Hearthstone is a facility that provides a structured setting for men wishing to
+			&nbsp;Hearthstone is a facility that provides a structured setting for men wishing to
 			begin a program of recovery from drug and/or alcohol addiction.&nbsp; As such, although
 			it is not a treatment facility, it does have a series of rules and procedures that
 			must be followed while in residence.&nbsp; A sampling of these rules and procedures
@@ -53,7 +53,7 @@
 				</li>
     </ol>
     <div>
-			This is but a summary of the major requirements for living at Hearthstone and it
+			&nbsp;This is but a summary of the major requirements for living at Hearthstone and it
 			is not all inclusive.&nbsp; The requirements are not meant to be punitive in any
 			way, but they have evolved over time as necessary to the recovery of residents and
 			the efficient operation of the facility.&nbsp; The House Director can provide clarification
@@ -63,12 +63,15 @@
   </div>
 </template>
 
-<script>
-export default {}
-</script>
 
 <style scoped>
+
+  ol {
+    margin: 0 auto;
+    padding-left: 0;
+  }
   li {
+    text-align: center;
     display: inline-block;
     margin: 0 10px;
   }
