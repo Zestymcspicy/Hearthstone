@@ -1,6 +1,6 @@
 <template>
   <div id="applications">
-
+      <h1 id="application-title" class="page-title">Application</h1>
     <figure id="sunset">
       <img id="sunset-image" src="../assets/sunset.jpg" alt="sunset"/>
     </figure>
@@ -29,8 +29,17 @@
 </template>
 
 <style>
+
+#application-title{
+  background-color: hsla(150, 15%, 5%, 0.76);
+  position: absolute;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #dimbox{
-  margin: 5% 5% 5% 5%;
+  margin: 15% 5% 5% 5%;
   background-color: rgba(208, 210, 197, 0.76);
   height: 100%;
   padding: 2%;
@@ -41,6 +50,7 @@
 }
 
 #sunset{
+  margin-top: 10%;
   width: 40%;
 }
 

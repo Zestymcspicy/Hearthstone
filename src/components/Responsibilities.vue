@@ -1,5 +1,6 @@
 <template>
   <div class="page-content" id="responsibilities-page">
+    <h1 class="page-title">Responsibilities</h1>
     <div>
 			&nbsp;Hearthstone is a facility that provides a structured setting for men wishing to
 			begin a program of recovery from drug and/or alcohol addiction.&nbsp; As such, although

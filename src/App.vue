@@ -19,6 +19,17 @@
     margin: 0;
   }
 
+  .in-text-link{
+    color: #17caf0;
+  }
+
+  .page-title{
+    text-align: center;
+    margin: 2vh 0;
+    color: white;
+    width: 100%;
+  }
+
   #main {
     font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
     background-image: url("assets/erik-mclean-1132483-unsplash.jpg");
@@ -30,12 +41,12 @@
 
   .page-content {
     border-radius: 5%;
-    padding: 2%;
+    padding: 3%;
     display: flex;
     flex-wrap: wrap;
     color: white;
     background-color: hsla(150, 15%, 5%, 0.76);
-    margin: 2% 5%;
+    margin: 3% 7%;
     font-size: 20px;
   }
 

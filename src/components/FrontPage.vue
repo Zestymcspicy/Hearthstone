@@ -1,5 +1,6 @@
 <template>
   <div class="page-content" id="front-page">
+    <h1 class="page-title">About</h1>
     <div class="front-page-text" id="first-paragraph">
 			Hearthstone is a residential facility located in Lawrence, Kansas dedicated to helping
 			adult men serious about recovering from their addictions to alcohol, drugs or both.&nbsp;
@@ -21,7 +22,11 @@
       Hearthstone is supported by the rent paid by its residents as well as through outside
      contributions.&nbsp; It is a registered 501(3)(c) charitable organization.
     </div>
-    <div class="front-page-text" id="third-paragraph">
+    <figure id="alcoholism">
+      <img src="../assets/man-drinking-alcohol2.png" alt="alcoholism">
+    </figure>
+    <div class="front-page-text">
+      <div id="third-paragraph">
 			Hearthstone can accommodate up to ten residents at a time and it is governed by
 			a non-resident Board of Directors drawn from the recovery community in Lawrence,
 			some of whom are former residents themselves.&nbsp; Hearthstone has no affiliation
@@ -30,27 +35,34 @@
      in residence.&nbsp; Frequent meetings of the relevant organizations are held within
      easy walking distance of the facility.
    </div>
-     <div class="front-page-text" id="fouth-paragraph">
+     <div id="fourth-paragraph">
 			The current cost of residence at Hearthstone is $105 per week, split between $65
 			for rent and $40 for a food fund which is administered by the residents.&nbsp; Residents
 			are required to support themselves while in residence via meaningful work, but no
 			money is required upon admission.&nbsp; More requirements for living at Hearthstone
-			are shown on the <router-link to="responsibilities">RESPONSIBILITIES</router-link> page and the procedure for applying is
-			outlined on the <router-link to="applications">APPLICATIONS</router-link> page.
+			are shown on the <router-link class="in-text-link" to="responsibilities">RESPONSIBILITIES</router-link> page and the procedure for applying is
+			outlined on the <router-link class="in-text-link" to="applications">APPLICATIONS</router-link> page.
     </div>
     <div></div>
     <router-view></router-view>
   </div>
+</div>
 </template>
 
-<!-- // <script>
-// export default {
-//
-// } -->
-<!-- </script> -->
+
 <style scoped>
   .front-page-text{
     width: 65%;
+    height: auto;
+  }
+
+  #second-paragraph {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  #fourth-paragraph {
+    margin-top: 10px;
+
   }
 
   img{
@@ -60,10 +72,15 @@
   figcaption {
     font-size: 12px;
   }
+
   #sunflower {
     width: 24%;
     max-width: 200px;
     height: auto;
+  }
+
+  #alcoholism {
+    width: 24%;
   }
   @media only screen and (max-width: 860px) {
     .front-page-text{
@@ -72,9 +89,15 @@
     #front-page{
       margin: 2% 0;
     }
-    #sunflower{
-      max-width: 100%;
+    #sunflower, #alcoholism{
+      max-width: 400px;
       width: 100%;
+      margin: 0 auto;
     }
+    /* {
+      max-width: 400px;
+      width: 100%;
+      margin: 0 auto;
+    } */
   }
 </style>
