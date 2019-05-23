@@ -1,7 +1,7 @@
 <template>
   <div class="title">
     <div id="title-text">
-      <h1>{{ msg }}</h1>
+      <h1>Hearthstone</h1>
       <h6>Men's Recovery in Lawrence, KS</h6>
       <Nav/>
     </div>
@@ -13,9 +13,6 @@ import Nav from './Nav.vue';
 export default {
   components: {
     Nav
-  },
-  props: {
-    msg: String
   }
 }
 </script>
@@ -47,7 +44,6 @@ h6 {
   z-index: 1;
   width: 100%;
   position: sticky;
-  /* position: fixed; */
   top: 0px;
   color: #17caf0;
   font-size: 40px;
@@ -79,6 +75,8 @@ ul {
 @media only screen and (max-width: 500px) {
   .title {
     font-size: 18px;
+    position: fixed;
+    top: 0;
   }
 
   #title-text{

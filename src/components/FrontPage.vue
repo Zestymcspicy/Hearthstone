@@ -1,5 +1,6 @@
 <template>
-  <div class="page-content" id="front-page">
+  <div id="front-page">
+  <!-- <div class="page-content" id="front-page"> -->
     <h1 class="page-title">About</h1>
     <div class="front-page-text" id="first-paragraph">
 			Hearthstone is a residential facility located in Lawrence, Kansas dedicated to helping
@@ -52,12 +53,28 @@
 
 <style scoped>
   .front-page-text{
-    width: 65%;
+    width: 95%;
     height: auto;
+    /* testing */
+    background-color: hsla(0, 0%, 100%, 0.85);
+    padding: 2%;
+    margin: 5%;
+    font-size: 30px;
+    align-self: center;
+  }
+  figure {
+    align-self: center;
+  }
+  #front-page{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
   }
 
   #second-paragraph {
-    width: 100%;
+
+    /* width: 100%; */
+    /* to here */
     margin-bottom: 10px;
   }
   #fourth-paragraph {
@@ -84,7 +101,7 @@
   }
   @media only screen and (max-width: 860px) {
     .front-page-text{
-      width: 100%;
+      width: 90%;
     }
     #front-page{
       margin: 2% 0;

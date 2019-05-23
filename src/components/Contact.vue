@@ -1,8 +1,9 @@
 <template>
   <div id="contact">
     <h1 class="page-title">Contact/Directions</h1>
-    <div id="map-container"></div>
+    <div id="map-container">
       <Gmap/>
+    </div>
     <div id="contact-info"></div>
     <router-view></router-view>
   </div>
@@ -18,6 +19,7 @@
 <style>
   #map-container{
     width: 30vw;
-    margin: 10% 0 0 15%;
+    margin: 30vh 0 0 20vw;
+    min-width: 250px;
   }
 </style>

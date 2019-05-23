@@ -1,6 +1,6 @@
 <template>
   <div id="main">
-    <HearthStoneHeader msg="Hearthstone"/>
+    <HearthStoneHeader/>
     <router-view></router-view>
   </div>
 </template>
@@ -19,11 +19,17 @@
     margin: 0;
   }
 
+  HearthStoneHeader{
+    position: sticky;
+    top: 0px;
+  }
+
   .in-text-link{
     color: #17caf0;
   }
 
   .page-title{
+
     text-align: center;
     margin: 2vh 0;
     color: white;
@@ -33,6 +39,10 @@
   #main {
     font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
     background-image: url("assets/erik-mclean-1132483-unsplash.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     height: auto;
     max-width: 1200px;
@@ -55,6 +65,9 @@
       margin: 2% 0;
     }
 
+    .page-title{      
+      margin-top: 20%;
+    }
     body, html{
       width: 100%;
       overflow-x: hidden;

@@ -16,7 +16,7 @@
     const map = new google.maps.Map(element, options);
   }
   }
-</script>
+</script> 
 <style>
   #map{
     width: 30vw;
