@@ -22,4 +22,17 @@
     margin: 30vh 0 0 20vw;
     min-width: 250px;
   }
+
+  @media only screen and (max-width: 900px) {
+
+    #contact {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #map-container{
+      margin: 10vh auto;
+      width: 90vw;
+    }
+  }
 </style>

@@ -111,10 +111,8 @@
       width: 100%;
       margin: 0 auto;
     }
-    /* {
-      max-width: 400px;
-      width: 100%;
-      margin: 0 auto;
-    } */
+  }
+  @media only screen and (max-width: 700px) {
+    
   }
 </style>

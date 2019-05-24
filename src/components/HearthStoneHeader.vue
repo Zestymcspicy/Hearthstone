@@ -63,24 +63,13 @@ ul {
   }
 
   .title {
-    font-size: 30px;
-  }
-
-  h6 {
-    width: 100%;
-  }
-}
-
-
-@media only screen and (max-width: 500px) {
-  .title {
     font-size: 18px;
     position: fixed;
     top: 0;
   }
 
   #title-text{
-    margin-left: 0;
+    margin-left: 2vw;
   }
   h6{
     width: 70%;

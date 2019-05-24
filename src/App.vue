@@ -19,10 +19,10 @@
     margin: 0;
   }
 
-  HearthStoneHeader{
+  /* HearthStoneHeader{
     position: sticky;
     top: 0px;
-  }
+  } */
 
   .in-text-link{
     color: #17caf0;
@@ -60,13 +60,20 @@
     font-size: 20px;
   }
 
+
+  @media only screen and (max-width: 860px){
+    .page-content {
+      border-radius: 0;
+    }
+  }
+
   @media only screen and (max-width: 500px) {
     .page-content{
       margin: 2% 0;
     }
 
-    .page-title{      
-      margin-top: 20%;
+    .page-title{
+      margin-top: 14vh;
     }
     body, html{
       width: 100%;

@@ -40,7 +40,7 @@
 
 #dimbox{
   margin: 15% 5% 5% 5%;
-  background-color: rgba(208, 210, 197, 0.76);
+  background-color: rgba(208, 210, 200, 0.8);
   height: 100%;
   padding: 2%;
 }
@@ -65,14 +65,17 @@
 
   #sunset{
     border-radius: 3%;
-    width: 95%;
+    width: 60%;
+    z-index: -3;
   }
 
   #dimbox {
     border-radius: 7% 7% 7% 7%;
     position: absolute;
-    width: 90%;
+    display: block;
+    width: 70%;
     height:auto;
+    margin: 22vh 0 0 12vh;
   }
 }
 </style>

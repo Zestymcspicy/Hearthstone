@@ -15,14 +15,13 @@
 </template>
 <script>
 export default {
+
   methods: {
     toggle_menu: function() {
       const menu = document.getElementById("nav-list");
       if(menu.classList.contains("show-menu")) {
         menu.classList.remove("show-menu");
-        // menu.style.display = "none";
       } else {
-        // menu.style.display = "";
         menu.classList.add("show-menu");
       }
     }
@@ -96,7 +95,8 @@ export default {
       top: 60px;
       padding-top: 10%;
       transition: .25s ease;
-      transform: translateX(100%);
+      transform: translateX(175%);
+      width: 40%;
     }
 
 

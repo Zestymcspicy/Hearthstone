@@ -74,11 +74,15 @@
   li {
     text-align: center;
     display: inline-block;
-    margin: 0 10px;
+    margin: 1vh 10px;
   }
 
   li:nth-of-type(2n-1) {
-    background-color: rgba(76, 80, 83, 0.6);
+    background-color: rgba(90, 90, 93, 0.6);
+  }
+
+  li:nth-of-type(2n) {
+    background-color: rgba(50, 80, 70, 0.6);
   }
 
 </style>
