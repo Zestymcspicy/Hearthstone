@@ -61,9 +61,13 @@
   }
 
 
-  @media only screen and (max-width: 860px){
+  @media only screen and (max-width: 800px){
     .page-content {
       border-radius: 0;
+    }
+
+    .page-title {
+      margin-top: 14vh;
     }
   }
 
@@ -75,10 +79,11 @@
     .page-title{
       margin-top: 14vh;
     }
+
     body, html{
       width: 100%;
       overflow-x: hidden;
     }
   }
 </style>
-<!--photh cred Photo by Erik Mclean on Unsplash  -->
+<!--photo cred Photo by Erik Mclean on Unsplash  -->

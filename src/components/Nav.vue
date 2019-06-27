@@ -9,6 +9,7 @@
           <li><router-link class="nav-item" to="/home">Home</router-link></li>
           <li><router-link class="nav-item" to="/responsibilities">Responsibilities</router-link></li>
           <li><router-link class="nav-item" to="/applications">Applications</router-link></li>
+          <li><router-link class="nav-item" to="/brochure">Brochure</router-link></li>
           <li><router-link class="nav-item" to="/contact">Contact/Directions</router-link></li>
         </ul>
     </div>

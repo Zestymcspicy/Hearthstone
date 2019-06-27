@@ -24,7 +24,7 @@
 				<p> If Hearthstone is at its capacity when someone calls, he is encouraged to call back
 						frequently as there is no way to predict when openings will become available.</p>
 			</div>
-    <router-view></router-view>
+    <!-- <router-view></router-view> -->
   </div>
 </template>
 

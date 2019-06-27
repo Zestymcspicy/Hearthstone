@@ -57,7 +57,7 @@ ul {
   padding: 0;
 }
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 800px) {
   Nav {
     width: 100%;
   }

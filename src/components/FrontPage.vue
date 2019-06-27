@@ -44,31 +44,41 @@
 			are shown on the <router-link class="in-text-link" to="responsibilities">RESPONSIBILITIES</router-link> page and the procedure for applying is
 			outlined on the <router-link class="in-text-link" to="applications">APPLICATIONS</router-link> page.
     </div>
-    <div></div>
-    <router-view></router-view>
+    <div>
+      <em>
+        If you or someone you know could benefit from what Hearthstone has to offer, you
+			are encouraged to contact us.&nbsp; You can also print out a brochure by using the
+    </em><b>BROCHURE</b><em>link above.</em>
+    </div>
+    <!-- <router-view></router-view> -->
   </div>
 </div>
 </template>
 
 
 <style scoped>
-  .front-page-text{
+  .front-page-text {
     width: 95%;
     height: auto;
     /* testing */
     background-color: hsla(0, 0%, 100%, 0.85);
     padding: 2%;
     margin: 5%;
-    font-size: 30px;
+    font-size: 26px;
     align-self: center;
   }
   figure {
     align-self: center;
   }
-  #front-page{
+
+  #front-page {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+  }
+
+  .page-title {
+    background-color: hsla(150, 15%, 5%, 0.76);
   }
 
   #second-paragraph {
@@ -77,12 +87,13 @@
     /* to here */
     margin-bottom: 10px;
   }
+
   #fourth-paragraph {
     margin-top: 10px;
 
   }
 
-  img{
+  img {
     width: 100%;
   }
 
@@ -103,16 +114,16 @@
     .front-page-text{
       width: 90%;
     }
-    #front-page{
+    #front-page {
       margin: 2% 0;
     }
-    #sunflower, #alcoholism{
+    #sunflower, #alcoholism {
       max-width: 400px;
       width: 100%;
       margin: 0 auto;
     }
   }
   @media only screen and (max-width: 700px) {
-    
+
   }
 </style>
